@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="hr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Moj portfolio</title>
+		<link rel="stylesheet" href="bootstrap/bootstrap.min.css">		
+		<link href="https://fonts.googleapis.com/css?family=Lobster|Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+		<link rel="stylesheet" href="lightbox/css/lightbox.css">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container">			
+			<!-- ************** Zaglavlje / početak ************** -->
+			<div class="row zaglavlje">
+				<div class="col">
+					<a href="index.html">Time To Sl33p </a>
+					<p>Visual Arts & Music</p>
+				</div>
+			</div>
+			<!-- ************** Zaglavlje / kraj ************** -->
+			
+			<!-- ************** Navigacija / početak ************** -->
+			<div class="row navigacija">
+				<div class="col">
+					<div class="hamburger">
+						<span class="fas fa-bars"></span>
+					</div>
+					<ul class="main-menu">
+						<li><a href="index.html">Početna</a></li>
+						<li><a href="biografija.html">Biografija</a></li>
+						<li><a href="moji_radovi.html">Moji radovi</a></li>
+						<li><a href="kontakt.html">Kontakt</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- ************** Navigacija / kraj ************** -->
+
+			<!-- ************** O meni / početak ************** -->
+						
+			<div class="row o-meni">
+				<div class="col-12">
+					<h1>Biografija</h1>
+				</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="new_slike_1/biografija.jpg" class="img-fluid">
+					</div>				
+					<div class="col-md-6">
+						<p>Karlo Pavlović (Time To Sl33p) je glazbeni producent i dj. 
+							Primarno započevši svoj put ka glazbi kroz produkciju u softveru Ableton, 
+							Karlo se primarno bavi house, techno, i indie elektroničkom glazbom. 
+							Rođen u gradu Puli, njegov najveći interes od malena bila je glazba, 
+							slušajući muziku sa svojim ocem, koji mu je uvijek puštao raznoliku glazbu, 
+							poput Radiohead,Trickya, Pear Jama i još mnoštvo kvalitetne glazbe. 
+							Karlove današnje najveće glazbene inspiracije su Radiohead, Tricky, Dixon, Tale Of Us, Marcus Worgull i slično.
+							Karlo pokušava stopiti vizualne umjetnosti i glazbu u jedno, te se bavi i grafičkim dizajnom 
+							te ga to također interesira. </p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row vjestine">
+				<div class="col-12">
+					<h1>Moje vještine</h1>
+				</div>
+				<div class="col-md-3 vjestina svijetlo-siva"><p>Corel Draw 2017</p></div>			
+				<div class="col-md-3 vjestina tamno-siva"><p>Adobe Indesign</p></div>			
+				<div class="col-md-3 vjestina svijetlo-siva"><p>Ableton Live</p></div>
+				<div class="col-md-3 vjestina tamno-siva"><p>Ghost Production</p></div>		
+			</div>
+			
+			<!-- ************** O meni / kraj ************** -->
+			
+			<!-- ************** Kontakt / početak ************** -->
+			<div class="row kontakt">
+				<div class="col">
+					<h1>Brzi kontakt</h1>
+					<form action="" method="post">
+						<div class="form-group">							
+							<input type="text" class="form-control" id="name" placeholder="Name">
+						</div>
+						<div class="form-group">							
+							<input type="text" class="form-control" id="subject" placeholder="Subject">
+						</div>	
+						<div class="form-group">							
+							<input type="email" class="form-control" id="e-mail" placeholder="E-mail">
+						</div>				
+						<div class="form-group">
+							<textarea class="form-control" id="message" rows="3" placeholder="Message"></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary">Send</button>
+					</form>
+				</div>
+			</div>
+			<!-- ************** Kontakt / kraj ************** -->
+		
+			<!-- ************** Footer / početak ************** -->
+			<div class="row footer">
+				<div class="col">
+					<div class="footer-content">
+						<ul>
+							<li><a href="index.html">Početka</a></li>
+							<li><a href="biografija.html">Biografija</a></li>
+							<li><a href="moji_radovi.html">Moji radovi</a></li>
+							<li><a href="kontakt.html">Kontakt</a></li>
+						</ul>
+						<p>Izradio/la: Karlo Pavlović, 2019.</p>
+					</div>
+				</div>
+			</div>
+			<!-- ************** Footer / kraj ************** -->
+		</div>
+		<script src="bootstrap/jquery.min.js"></script>
+		<script src="bootstrap/popper.min.js"></script>
+		<script src="bootstrap/bootstrap.min.js"></script>
+		<script src="lightbox/js/lightbox.js"></script>
+		<script>
+			$('.hamburger').click(function(){
+				$('.main-menu').slideToggle();
+			});
+		</script>
+	</body>
+</html>
